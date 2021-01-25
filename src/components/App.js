@@ -1,10 +1,8 @@
 import React from "react";
-import { connect } from "react-redux";
-import { selectSong } from "../actions";
 import SongList from "./SongList";
 import SongDetail from "./SongDetail";
 
-export default () => {
+export default App = () => {
   return (
     <div className="ui segment">
       <div className="ui container grid">
